@@ -1,0 +1,83 @@
+.logo	{
+	border-right: 1px solid black;
+	margin-left: 10px;
+	width: 200px;
+}
+img	{
+	float: left;
+}
+body	{
+	font-family: sans-serif;
+}
+
+li 	{
+	
+	float: right;
+	padding: 150px;
+	display: inline;
+	list-style: none;
+	margin-right: 100px;
+	font-family: sans-serif;
+	font-size: 30px;  
+	
+}
+
+.navbar 	{
+	margin-left: 20px;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-right: 30px;
+	padding-top: 30px;
+	
+}
+
+ul a	{
+	text-decoration: none;
+	color: black;
+}
+
+ul a:hover	{
+	color: lightgreen;
+}
+
+
+.services	{
+	margin-top: 50px;
+	margin-left: 50px;
+	padding-left: 80px;
+	padding-top: 40px;
+	width:1400px;
+	height: 150px;
+	background-color: lightgrey;
+	color: black;
+	font-family: sans-serif;
+	
+}
+
+h1	{
+	font-size: 28px;
+	font-style: bold;
+}
+
+.note	{
+	font-size: 24px;
+	color: white;
+	font-weight: 300px;
+}
+
+.servicebar a	{
+	padding-right: 10px;
+	float: right;
+	font-style: italic;
+
+}
+
+.grid_2	{
+	color: black;
+}
+
+.main clearfix	{
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 80% 10%;
+}
